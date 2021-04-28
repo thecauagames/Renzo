@@ -67,6 +67,11 @@ client.on("message", (msg) => {
     msg.reply("Stick: S                  P | P | P   ")
     msg.reply("                          X | S | X   ")
     msg.reply("                          X | S | X   ")
+  } else if (msg.content === "/mccrafting bread") {
+    msg.reply(
+      "<:nao_pertube:741355913537126481>**│** Olá! Você está usando a versão experimental do Zero, por favor não reporte bugs caso não for solicitado!"
+      )
+    msg.reply("https://www.dummies.com/wp-content/uploads/449008.image0.jpg")
   } else if (msg.content === "/old botinfo") {
     msg.reply(
       "<:nao_pertube:741355913537126481>**│** Olá! Você está usando a versão experimental do Zero, por favor não reporte bugs caso não for solicitado!"
