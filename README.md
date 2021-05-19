@@ -8,7 +8,7 @@ Also, Zero is a brazillian bot, so if you want to help me, know some portuguese 
 # 🤔 How to start helping?
 **First of all you need to have Node.js, discord.js and VSCode (Visual Studio Code).**
 
-You can install Node.js on their site: [Node.js's Installer Site](https://nodejs.org/en/)
+You can install Node.js on their site: [Install Node.js here](https://nodejs.org/en/)
 
 ## 🖥️ Windows
 To install discord.js, open the command prompt as admininstrator, and write this code:
@@ -18,7 +18,7 @@ npm install discord.js
 And now wait to install.
 After installing discord.js, you now only need a text editor. It's recommended that you use Visual Studio Code to run the code, for running the code, use Code Runner extension. 🏃
 
-You can install VSCode on their site: [VSCode's Installer Site](https://code.visualstudio.com/Download)
+You can install VSCode on their site: [Install VSCode here](https://code.visualstudio.com/Download)
 
 ## ✍️ And now it's time to code!
 After installing everything you can now code, help everything and it's done!
