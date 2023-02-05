@@ -1,5 +1,8 @@
+
 # Renzo
 Renzo is a easy-to-use and user-friendly Discord bot with functions for your server!
+# ⚠️ Disclaimer:
+**This branch is deprecated, meaning that will no longer will be updated neither be supported, use at your own risk!**
 
 # 🤔 How to contribute to Renzo?
 **You will need:**
