@@ -1,24 +1,20 @@
-# Zero
-Zero is my discord bot. With him you can know some Minecraft craftings, ban people and much more! With Zero on GitHub, you can now help on the development of my bot and much more!
+# Renzo
+Renzo is a easy-to-use and user-friendly Discord bot with functions for your server!
 
-Zero is built in JS (JavaScript) and you can find some "hidden things" on them!
+# 🤔 How to contribute to Renzo?
+**You will need:**
+- A text editor (Visual Studio Code, Atom)
+- Knowledge of JavaScript and discord.js
+- node.js
 
-Also, Zero is a brazillian bot, so if you want to help me, know some portuguese and start helping! 🇧🇷
+If you don't have node.js installed, you can install by entering its website: [node.js website](https://nodejs.org/en/)
 
-# 🤔 How to start helping?
-**First of all you need to have Node.js, discord.js and VSCode (Visual Studio Code).**
+Don't have a text editor installed? Install Visual Studio Code by downloading at the VS Code website: [Visual Studio Code website](https://code.visualstudio.com/Download)
 
-You can install Node.js on their site: [Install Node.js here](https://nodejs.org/en/)
-
-## 🖥️ Windows
-To install discord.js, open the command prompt as admininstrator, and write this code:
+## 👩‍💻 How to start contributting?
+First of all, you need to install discord.js. Renzo uses discord.js version 14 instead of the old version 12, you can install discord.js by using this command:
 ```batch
 npm install discord.js
 ```
-And now wait to install.
-After installing discord.js, you now only need a text editor. It's recommended that you use Visual Studio Code to run the code, for running the code, use Code Runner extension. 🏃
-
-You can install VSCode on their site: [Install VSCode here](https://code.visualstudio.com/Download)
-
-## ✍️ And now it's time to code!
-After installing everything you can now code, help everything and it's done!
+## ✍️ Happy coding!
+After installing discord.js and your text editor, you can now help the development of Renzo.
