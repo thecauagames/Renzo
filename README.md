@@ -15,7 +15,10 @@ If you don't have node.js installed, you can install by entering its website: [n
 Don't have a text editor installed? Install Visual Studio Code by downloading at the VS Code website: [Visual Studio Code website](https://code.visualstudio.com/Download)
 
 ## 👩‍💻 How to start contributting?
-First of all, you need to install discord.js. Renzo uses discord.js version 14 instead of the old version 12, you can install discord.js by using this command:
+### ⚠️ Disclaimer:
+**In this branch Renzo uses discord.js version 12!**
+
+First of all, you need to install discord.js. Renzo uses ~discord.js version 14 instead of the old~ version 12, you can install discord.js by using this command:
 ```batch
 npm install discord.js
 ```
