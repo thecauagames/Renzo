@@ -1,0 +1,6 @@
+{
+    "clientId": "insert your Discord's bot client ID!",
+	"guildId": "insert your Discord's guild ID!",
+    "main": "index.js",
+    "token": "insert your Discord's bot token in here!"
+}
