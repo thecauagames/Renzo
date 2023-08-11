@@ -1,20 +1,24 @@
 # Renzo
-Renzo is a easy-to-use and user-friendly Discord bot with functions for your server!
+Renzo is a easy-to-use and yet user-friendly Discord bot with functions for your server!
 
 # 🤔 How to contribute to Renzo?
 **You will need:**
-- A text editor (Visual Studio Code, Atom)
-- Knowledge of JavaScript and discord.js
-- node.js
+- A text editor (for example: Visual Studio Code, Atom)
+- Have a little knowledge of JavaScript and discord.js
+- Have node.js v16 installed
 
-If you don't have node.js installed, you can install by entering its website: [node.js website](https://nodejs.org/en/)
+If you don't have node.js installed, you can install node.js by downloading at the [node.js website](https://nodejs.org/en/).
 
-Don't have a text editor installed? Install Visual Studio Code by downloading at the VS Code website: [Visual Studio Code website](https://code.visualstudio.com/Download)
+Don't have a text editor installed? Install Visual Studio Code by downloading at the [Visual Studio Code website](https://code.visualstudio.com/Download).
 
-## 👩‍💻 How to start contributting?
-First of all, you need to install discord.js. Renzo uses discord.js version 14 instead of the old version 12, you can install discord.js by using this command:
+## 👩‍💻 How do I start contributting?
+Make sure you have all the programs and dependencies installed, without them you can't start contributting.
+
+Firstly, we need to install the discord.js module. You can install the discord.js module by simply writing this command in your Command Prompt:
 ```batch
 npm install discord.js
 ```
+After that, the module will be installed. If you see an error about Windows not recognizing 'npm', make sure to reinstall node.js and try the command again.
+
 ## ✍️ Happy coding!
-After installing discord.js and your text editor, you can now help the development of Renzo.
+After all of this, you can now contribute to Renzo! Help us make the world a easier place for everyone!
