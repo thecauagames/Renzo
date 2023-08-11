@@ -5,7 +5,11 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('avatar')
 		.setDescription('Veja seu próprio avatar ou de outro usuário!')
-		.addUserOption(option => option.setName('target').setDescription('O avatar de outro usuário')),
+		.setDescriptionLocalizations({
+			"es-ES": '¡Ver tu propio avatar o el de otro usuario!',
+			"en-US": 'See your own or another user\'s avatar!',
+		})
+		.addUserOption(option => option.setName('target').setDescription('Escolha outro usuário para ver o avatar dele')),
 	async execute(interaction) {
 
 		const user = interaction.options.getUser("target") ? interaction.options.getUser("target") : interaction.user
