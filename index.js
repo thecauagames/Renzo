@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
+const { channel } = require('node:diagnostics_channel');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -17,8 +18,6 @@ for (const file of commandFiles) {
 	client.commands.set(command.data.name, command);
 }
 
-
-
 for (const file of eventFiles) {
 	const filePath = path.join(eventsPath, file);
 	const event = require(filePath);
@@ -30,7 +29,7 @@ for (const file of eventFiles) {
 }
 
 client.once('ready', () => {
-	console.log('Ready!');
+	console.log('ATENÇÃO: O Renzo foi descontinuado, saiba o que está fazendo antes de fazer alterações na base.')
 });
 
 client.on('interactionCreate', async interaction => {
@@ -44,10 +43,8 @@ client.on('interactionCreate', async interaction => {
 		await command.execute(interaction, client);
 	} catch (error) {
 		console.error(error);
-		await interaction.reply({ content: ':no_entry: | **Opa!** Parece que ocorreu um imprevisto, talvez seja um bug ou não consegui carregar o comando...', ephemeral: true });
+		await interaction.reply({ content: ':cry: | Ai caramba, deu problema aqui, vê o console por favor', ephemeral: true });
 	}
 });
-
-
 
 client.login(token);

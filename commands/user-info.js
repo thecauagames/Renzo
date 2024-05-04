@@ -9,10 +9,9 @@ module.exports = {
             "es-ES": 'Aquí tiene información sobre usted',
             "en-US": 'See some information about you',
         })
-		.addUserOption(option => option.setName('target').setDescription('Escolha outro usuário para ver as informações dele')),
+		.addUserOption(option => option.setName('user').setDescription('Informações de outro usuário')),
 	async execute(interaction) {
-
-		const user = interaction.options.getUser("target") ? interaction.options.getUser("target") : interaction.user
+		const user = interaction.options.getUser("user") ? interaction.options.getUser("user") : interaction.user
 
         const embed = new EmbedBuilder()
 		.setColor(0x0099FF)

@@ -9,9 +9,8 @@ module.exports = {
 			"es-ES": '¡Ver tu propio avatar o el de otro usuario!',
 			"en-US": 'See your own or another user\'s avatar!',
 		})
-		.addUserOption(option => option.setName('target').setDescription('Escolha outro usuário para ver o avatar dele')),
+		.addUserOption(option => option.setName('target').setDescription('O avatar de outro usuário')),
 	async execute(interaction) {
-
 		const user = interaction.options.getUser("target") ? interaction.options.getUser("target") : interaction.user
 
 		const embed = new EmbedBuilder()
@@ -27,7 +26,7 @@ module.exports = {
 
 
 	await interaction.reply({
-		embeds: [embed], components: [new ActionRowBuilder().addComponents(button)], ephemeral: false
+		embeds: [embed], components: [new ActionRowBuilder().addComponents(button)], ephemeral: false,
 	});
 	},
 };
