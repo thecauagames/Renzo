@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Renzo will be discontinued since there's little development on my end, since I doesn't really know how to program. Will release Renzo 7 "Taphia" as the last version of Renzo, feel free to download the repo or fork it to continue.**
+
 # Renzo
 Renzo is a easy-to-use and yet user-friendly Discord bot with functions for your server!
 
